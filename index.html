@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- our project just needs Font Awesome Solid + Brands -->
+    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="assets/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Swiper Style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <a class="skip-link" href="#wp--skip-link--target">Skip to content</a>
+    <div class="wp-site-blocks">
+        <div id="top-bar" class="wp-block-top-announcement">
+            <div class="wrapper">
+                <div class="annoucement">
+                    <p>This is a global announcement! </p>
+                    <button class="btn-announcement" onclick="btnClick()"><i class="fa-solid fa-close"></i></button>
+                </div>
+            </div>
+        </div>
+        <header id="sticky-header" class="site-header">
+            <div class="wrapper">
+                <div class="site-branding">
+                    <div class="site-identity">
+                        <p class="site-title"><a href="#">Logo</a></p>
+                    </div>
+                </div>
+                <div class="site-header-menu">
+                    <div id="primary-menu" class="primary-menu">
+                        <div class="menu-toggle-wrapper">
+                            <button id="menu-toggle" class="menu-toggle">
+                                <div class="menu-bars">
+                                    <div class="bars bar1"></div>
+                                    <div class="bars bar2"></div>
+                                    <div class="bars bar3"></div>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="menu-inside-wrapper">
+                            <div class="mobile-best-seller">
+                                <h2 class="card-slider-title"><span>Best Seller</span> <a href="#" class="shop-all">Shop
+                                        all</a></h2>
+                                <!-- Slider main container -->
+                                <div class="menu-card-slider-wrapper">
+                                    <div class="swiper mySwiperMobile">
+                                        <!-- Additional required wrapper -->
+                                        <div class="swiper-wrapper">
+                                            <!-- Slides -->
+                                            <div class="swiper-slide">
+                                                <div class="card-wrapper">
+                                                    <div class="card-title">
+                                                        <a href="#">
+                                                            <div class="card-media">
+                                                                <img src="assets/images/cards/best-seller/1.png">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <div class="card-information">
+                                                            <div class="card-cat">
+                                                                <p>Best Seller</p>
+                                                            </div>
+                                                            <h2 class="card-heading"><a href="#">The Chair</a></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card-wrapper">
+                                                    <div class="card-title">
+                                                        <a href="#">
+                                                            <div class="card-media">
+                                                                <img src="assets/images/cards/best-seller/2.png">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <div class="card-information">
+                                                            <div class="card-cat">
+                                                                <p>Best Seller</p>
+                                                            </div>
+                                                            <h2 class="card-heading"><a href="#">The Chair</a></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card-wrapper">
+                                                    <div class="card-title">
+                                                        <a href="#">
+                                                            <div class="card-media">
+                                                                <img src="assets/images/cards/best-seller/3.png">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <div class="card-information">
+                                                            <div class="card-cat">
+                                                                <p>Best Seller</p>
+                                                            </div>
+                                                            <h2 class="card-heading"><a href="#">The Chair</a></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card-wrapper">
+                                                    <div class="card-title">
+                                                        <a href="#">
+                                                            <div class="card-media">
+                                                                <img src="assets/images/cards/best-seller/4.png">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="card-content">
+                                                        <div class="card-information">
+                                                            <div class="card-cat">
+                                                                <p>Best Seller</p>
+                                                            </div>
+                                                            <h2 class="card-heading"><a href="#">The Chair</a></h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <nav class="wp-block-navigation">
+                                <ul class="main-navigation">
+                                    <li class="wp-block-navigation-item has-child"><a href="#"><span>Mealtime</span> <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <div class="wp-block-navigation-submenu-container">
+                                            <div class="submenu">
+                                                <div class="wp-block-columns wp-block-two-columns">
+                                                    <div class="wp-block-column wp-block-column-1">
+                                                        <div class="wp-block-column-inner">
+                                                            <h2 class="submenu-title"><i
+                                                                    class="fa-solid fa-angle-left"></i> Shop Mealtime
+                                                            </h2>
+                                                            <ul class="wp-block-navigation-submenu">
+                                                                <li><a href="#">High Chair</a></li>
+                                                                <li><a href="#">Booster</a></li>
+                                                                <li><a href="#">Tableware & Bibs</a></li>
+                                                                <li><a href="#">Mealtime Accessories</a></li>
+                                                                <li><a href="#">Bundle & Save</a></li>
+                                                                <li class="see-all-menu"><a href="#">All Mealtime</a>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="wp-block-column wp-block-column-2">
+                                                        <div class="submenu-featured-slider">
+                                                            <h2 class="card-slider-title"><span>Featured Mealtime</span>
+                                                                <a href="#" class="shop-all">Shop all</a></h2>
+                                                            <!-- If we need navigation buttons -->
+                                                            <div class="swiper-button-container">
+                                                                <div class="swiper-button-prev"><i
+                                                                        class="fa-solid fa-caret-left"></i></div>
+                                                                <div class="swiper-button-next"><i
+                                                                        class="fa-solid fa-caret-right"></i></div>
+                                                            </div>
+                                                            <!-- Slider main container -->
+                                                            <div class="menu-card-slider-wrapper">
+                                                                <!-- If we need navigation buttons -->
+                                                                <div class="swiper mySwiper">
+                                                                    <!-- Additional required wrapper -->
+                                                                    <div class="swiper-wrapper">
+                                                                        <!-- Slides -->
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/1.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/2.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/3.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/4.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/4.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/4.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="wp-block-navigation-item has-child"><a href="#"><span>Playtime</span> <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <div class="wp-block-navigation-submenu-container">
+                                            <div class="submenu">
+                                                <div class="wp-block-columns wp-block-two-columns">
+                                                    <div class="wp-block-column wp-block-column-1">
+                                                        <div class="wp-block-column-inner">
+                                                            <h2 class="submenu-title"><i
+                                                                    class="fa-solid fa-angle-left"></i> Shop Playtime
+                                                            </h2>
+                                                            <ul class="wp-block-navigation-submenu">
+                                                                <li><a href="#">High Chair</a></li>
+                                                                <li><a href="#">Booster</a></li>
+                                                                <li><a href="#">Tableware & Bibs</a></li>
+                                                                <li><a href="#">Mealtime Accessories</a></li>
+                                                                <li><a href="#">Bundle & Save</a></li>
+                                                                <li class="see-all-menu"><a href="#">All Playtime</a>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="wp-block-column wp-block-column-2">
+                                                        <div class="submenu-featured-slider">
+                                                            <h2 class="card-slider-title"><span>Featured Playtime</span>
+                                                                <a href="#" class="shop-all">Shop all</a></h2>
+                                                            <!-- If we need navigation buttons -->
+                                                            <div class="swiper-button-container">
+                                                                <div class="swiper-button-prev"><i
+                                                                        class="fa-solid fa-caret-left"></i></div>
+                                                                <div class="swiper-button-next"><i
+                                                                        class="fa-solid fa-caret-right"></i></div>
+                                                            </div>
+                                                            <!-- Slider main container -->
+                                                            <div class="menu-card-slider-wrapper">
+                                                                <div class="swiper mySwiper">
+                                                                    <!-- Additional required wrapper -->
+                                                                    <div class="swiper-wrapper">
+                                                                        <!-- Slides -->
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/1.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/2.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/3.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/4.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/3.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/4.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="wp-block-navigation-item has-child"><a href="#"><span>Bathtime</span> <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                        <div class="wp-block-navigation-submenu-container">
+                                            <div class="submenu">
+                                                <div class="wp-block-columns wp-block-two-columns">
+                                                    <div class="wp-block-column wp-block-column-1">
+                                                        <div class="wp-block-column-inner">
+                                                            <h2 class="submenu-title"><i
+                                                                    class="fa-solid fa-angle-left"></i> Shop Bathtime
+                                                            </h2>
+                                                            <ul class="wp-block-navigation-submenu">
+                                                                <li><a href="#">High Chair</a></li>
+                                                                <li><a href="#">Booster</a></li>
+                                                                <li><a href="#">Tableware & Bibs</a></li>
+                                                                <li><a href="#">Mealtime Accessories</a></li>
+                                                                <li><a href="#">Bundle & Save</a></li>
+                                                                <li class="see-all-menu"><a href="#">All Bathtime</a>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="wp-block-column wp-block-column-2">
+                                                        <div class="submenu-featured-slider">
+                                                            <h2 class="card-slider-title"><span>Featured Bathtime</span>
+                                                                <a href="#" class="shop-all">Shop all</a></h2>
+                                                            <!-- If we need navigation buttons -->
+                                                            <div class="swiper-button-container">
+                                                                <div class="swiper-button-prev"><i
+                                                                        class="fa-solid fa-caret-left"></i></div>
+                                                                <div class="swiper-button-next"><i
+                                                                        class="fa-solid fa-caret-right"></i></div>
+                                                            </div>
+                                                            <!-- Slider main container -->
+                                                            <div class="menu-card-slider-wrapper">
+                                                                <div class="swiper mySwiper">
+                                                                    <!-- Additional required wrapper -->
+                                                                    <div class="swiper-wrapper">
+                                                                        <!-- Slides -->
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/1.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/2.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/3.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/4.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/3.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/4.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="wp-block-navigation-item has-child"><a href="#"><span>The Play
+                                                Boxes</span> <i class="fa-solid fa-arrow-right"></i></a><sup
+                                            class="new">New!</sup>
+                                        <div class="wp-block-navigation-submenu-container">
+                                            <div class="submenu">
+                                                <div class="wp-block-columns wp-block-three-columns">
+                                                    <div class="wp-block-column wp-block-column-1">
+                                                        <div class="wp-block-column-inner">
+                                                            <h2 class="submenu-title"><i
+                                                                    class="fa-solid fa-angle-left"></i> Shop Play Boxes
+                                                            </h2>
+                                                            <ul class="wp-block-navigation-submenu">
+                                                                <li><a href="#">Play Box Subscription</a></li>
+                                                                <li><a href="#">Newborn Box</a></li>
+                                                                <li><a href="#">Gift Play Boxes</a></li>
+                                                                <li><a href="#">Redeem Gift</a></li>
+                                                                <li class="see-all-menu"><a href="#">All Play Boxes</a>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="wp-block-column wp-block-column-2">
+                                                        <div class="container--tabs">
+                                                            <ul class="nav nav-tabs">
+                                                                <li class="active"><a href="#tab-1">Year 1</a></li>
+                                                                <li class=""><a href="#tab-2">Year 2</a></li>
+                                                            </ul>
+                                                            <div class="tab-content">
+                                                                <div id="tab-1" class="tab-pane active">
+                                                                    <div class="year-features">
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-1.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>0-12 weeks</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-2.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>3-4 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-3.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>5-6 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-4.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>7-8 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-5.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>9-10 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-6.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>11-12 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+                                                                <div id="tab-2" class="tab-pane">
+                                                                    <div class="year-features">
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-6.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>13-14 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-5.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>15-16 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-4.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>17-18 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-3.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>19-20 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-2.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>21-22 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="feature">
+                                                                            <a href="#">
+                                                                                <div class="feature-icon">
+                                                                                    <img src="assets/images/icon-1.png">
+                                                                                </div>
+                                                                                <div class="feature-content">
+                                                                                    <p>23-24 mos</p>
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="wp-block-column wp-block-column-3">
+                                                        <div class="submenu-featured-slider">
+                                                            <h2 class="card-slider-title"><span>Play Box Gifts &
+                                                                    Subscriptions</span> <a href="#"
+                                                                    class="shop-all">Shop all</a></h2>
+                                                            <!-- If we need navigation buttons -->
+                                                            <div class="swiper-button-container">
+                                                                <div class="swiper-button-prev"><i
+                                                                        class="fa-solid fa-caret-left"></i></div>
+                                                                <div class="swiper-button-next"><i
+                                                                        class="fa-solid fa-caret-right"></i></div>
+                                                            </div>
+                                                            <!-- Slider main container -->
+                                                            <div class="menu-card-slider-wrapper">
+                                                                <div class="swiper mySwiper">
+                                                                    <!-- Additional required wrapper -->
+                                                                    <div class="swiper-wrapper">
+                                                                        <!-- Slides -->
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/1.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/2.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/3.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/4.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/3.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-slide">
+                                                                            <div class="card-wrapper">
+                                                                                <div class="card-title">
+                                                                                    <a href="#">
+                                                                                        <div class="card-media">
+                                                                                            <img
+                                                                                                src="assets/images/cards/best-seller/4.png">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="card-content">
+                                                                                    <div class="card-information">
+                                                                                        <div class="card-cat">
+                                                                                            <p>Best Seller</p>
+                                                                                        </div>
+                                                                                        <h2 class="card-heading"><a
+                                                                                                href="#">The Chair</a>
+                                                                                        </h2>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="wp-block-navigation-item"><a href="#"><span>Gifts</span> <i
+                                                class="fa-solid fa-arrow-right"></i></a></li>
+                                    <li class="wp-block-navigation-item"><a href="#"><span>Best Sellers</span> <i
+                                                class="fa-solid fa-arrow-right"></i></a></li>
+                                    <li class="wp-block-navigation-item mobile-menu-item"><a href="#"><span>Shop
+                                                all</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="wp--skip-link--target" class="site-content">
+            <section class="content-example">
+                <div class="wrapper">
+                    <p>Organizations use data to analyze their customer behavior. They study what their customers are
+                        searching for and
+                        what kind of content they are likely to consume. This insightful data is then used to plan and
+                        create content
+                        that is relevant and meaningful to their customers. Great content comes with great effort. Any
+                        organization on
+                        its way to creating a marketing strategy cannot ignore content today. This blog will focus on
+                        collating some
+                        winning content marketing examples, best practices used in the industry, and content writing
+                        tools that will
+                        make your job as a content marketer easy. A fantastic visionary that he is, Bill Gates could see
+                        deep into the
+                        future. In an essay written in 1996, he wrote with drastically changed the way people buy, sell,
+                        and work across
+                        the globe. Businesses have no option but to adapt and change. This entire situation has
+                        propelled the online
+                        space to the stature of a marketing hub. We are at a point where leading organizations across
+                        the globe are
+                        adopting content-led marketing strategies.</p>
+                </div>
+            </section>
+            <section class="slider-with-accordion">
+                <div class="wrapper">
+
+                    <div class="video-slider-block">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiperVideos">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="assets/images/video-slider.jpeg"></div>
+                                <div class="swiper-slide"><div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                                        src="https://player.vimeo.com/video/919411397?h=60dc30b98b&autoplay=1&title=0&byline=0&portrait=0"
+                                        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                                <script src="https://player.vimeo.com/api/player.js"></script></div>
+                                <div class="swiper-slide"><iframe src="https://player.vimeo.com/video/849720933?h=592e908dec&autoplay=1&title=0&byline=0&portrait=0" width="788"
+                                    height="443" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                    <div class="accordion-block">
+                        <div class="accordion-container">
+                            <h2 class="accordion-main-title">It’s not magic,<br>It’s science</h2>
+                            <div class="accordion-items">
+                                <div class="accordion-item active">
+                                    <div class="accordion-title">
+                                        <h2>Lorem Ipsum</h2>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet consectetur. Euismod ultricies sed ipsum duis at arcu
+                                            sit urna
+                                            proin. Erat feugiat diam pharetra nisl.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-title">
+                                        <h2>Lorem Ipsum dolor</h2>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet consectetur. Euismod ultricies sed ipsum duis at arcu
+                                            sit urna
+                                            proin. Erat feugiat diam pharetra nisl.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-title">
+                                        <h2>Amet consectetur</h2>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet consectetur. Euismod ultricies sed ipsum duis at arcu
+                                            sit urna
+                                            proin. Erat feugiat diam pharetra nisl.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-title">
+                                        <h2>Tellus bibendum sapien</h2>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet consectetur. Euismod ultricies sed ipsum duis at arcu
+                                            sit urna
+                                            proin. Erat feugiat diam pharetra nisl.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="friendly-reminder">
+                            <h2>A friendly feminder</h2>
+                            <p>Alcohol will still probably affect your well-being and your sleep. A healthy breakfast and coffee should have you up and running by mid-morning.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content-example">
+                <div class="wrapper">
+                    <p>Organizations use data to analyze their customer behavior. They study what their customers are
+                        searching for
+                        and
+                        what kind of content they are likely to consume. This insightful data is then used to plan and
+                        create
+                        content
+                        that is relevant and meaningful to their customers. Great content comes with great effort. Any
+                        organization
+                        on
+                        its way to creating a marketing strategy cannot ignore content today. This blog will focus on
+                        collating some
+                        winning content marketing examples, best practices used in the industry, and content writing
+                        tools that will
+                        make your job as a content marketer easy. A fantastic visionary that he is, Bill Gates could see
+                        deep into
+                        the
+                        future. In an essay written in 1996, he wrote with drastically changed the way people buy, sell,
+                        and work
+                        across
+                        the globe. Businesses have no option but to adapt and change. This entire situation has
+                        propelled the online
+                        space to the stature of a marketing hub. We are at a point where leading organizations across
+                        the globe are
+                        adopting content-led marketing strategies.</p>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="wrapper"></div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
